@@ -40,20 +40,37 @@ Project Structure
 
 The project follows a clean layered structure:
 
-src/main/java/com/example/webhookclient
+webhook-automation/
 │
-├── dto
-│   ├── GenerateWebhookRequest.java
-│   ├── GenerateWebhookResponse.java
-│   └── SubmitQueryRequest.java
+├── src/
+│   └── main/
+│       ├── java/com/webhook/
+│       │   │
+│       │   ├── dto/
+│       │   │   ├── GenerateWebhookRequest.java
+│       │   │   ├── GenerateWebhookResponse.java
+│       │   │   ├── TestWebhookRequest.java
+│       │   │   └── TestWebhookResponse.java
+│       │   │
+│       │   ├── service/
+│       │   │   ├── WebhookApiService.java
+│       │   │   └── SqlQueryService.java
+│       │   │
+│       │   ├── runner/
+│       │   │   └── WebhookAutomationRunner.java
+│       │   │
+│       │   └── WebhookAutomationApplication.java
+│       │
+│       └── resources/
+│           └── application.properties
 │
-├── service
-│   └── WebhookService.java
+├── target/
+│   ├── classes/
+│   └── webhook-automation-1.0.0.jar
 │
-├── runner
-│   └── StartupRunner.java
-│
-└── WebhookClientApplication.java
+├── pom.xml
+└── README.md
+
 
 Package Responsibilities
 
