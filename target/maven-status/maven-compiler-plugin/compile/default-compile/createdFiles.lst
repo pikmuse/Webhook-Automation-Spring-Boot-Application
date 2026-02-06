@@ -1,0 +1,12 @@
+com\webhook\dto\GenerateWebhookRequest.class
+com\webhook\runner\WebhookAutomationRunner.class
+com\webhook\service\WebhookApiService.class
+com\webhook\dto\GenerateWebhookRequest$Builder.class
+com\webhook\dto\TestWebhookRequest.class
+com\webhook\dto\TestWebhookResponse.class
+com\webhook\dto\GenerateWebhookResponse.class
+com\webhook\WebhookAutomationApplication.class
+com\webhook\dto\GenerateWebhookResponse$Builder.class
+com\webhook\dto\TestWebhookResponse$Builder.class
+com\webhook\dto\TestWebhookRequest$Builder.class
+com\webhook\service\SqlQueryService.class
